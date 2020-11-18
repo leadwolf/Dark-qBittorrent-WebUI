@@ -19,8 +19,10 @@
     
 ----------------------------------------------------------------------------------------------*/
     /* COLORS */
-     :root {
+    :root {
         --color-Dark: #1D1D1D;
+        --color-Green: #148740;
+        --color-Blue: #143387;
         --color-Grey: #3A3A3A;
         --color-White: #C4C4C4;
     }
@@ -242,7 +244,8 @@
     }
     /* % of download completed*/
     .progressbar_dark {
-        background: var(--color-Grey) !important;
+        /* background: var(--color-Grey) !important; */
+        background: var(--color-Green) !important;
         color: var(--color-White) !important;
     }
     /* % of download uncompleted*/
@@ -273,15 +276,15 @@
     }
     /* SCROLLBARS
 ----------------------------------------------------------------------------------------------*/
-     ::-webkit-scrollbar-corner {
+    ::-webkit-scrollbar-corner {
         background-color: #333333;
     }
-     ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         background-color: #333333;
         height: 10px;
         width: 10px;
     }
-     ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background: #555555;
         -webkit-border-radius: 2px;
         border-radius: 2px;
